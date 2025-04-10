@@ -5,8 +5,10 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="flex items-center flex-col justify-center  w-full h-screen">
-      <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+      <h2 className="text-white  md:text-6xl font-bold text-center">
         Darrell Friday
+      </h2>
+      <h2 className="text-white md:text-4xl font-bold text-center mt-4">
         Software Developer
       </h2>
       <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
