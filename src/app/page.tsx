@@ -2,16 +2,12 @@ import Image from "next/image";
 import React from "react";
 import { Vortex } from "../components/ui/vortex";
 import Link from 'next/link';
+import { TypewriterEffectDemo } from "@/components/ui/typewriterdemo";
 export default function Home() {
   return (
     <div className="flex items-center flex-col justify-center  w-full h-screen">
-      <h2 className="text-white  md:text-6xl font-bold text-center">
-        Darrell Friday
-      </h2>
-      <h2 className="text-white md:text-4xl font-bold text-center mt-4">
-        Software Developer
-      </h2>
-      <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
+      <TypewriterEffectDemo></TypewriterEffectDemo>
+      <p className="text-white text-sm md:text-2xl max-w-xl mt-2 text-center">
         I created this portfolio site with Next.js to showcase my full stack native android applications for clients and employers.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
@@ -21,6 +17,7 @@ export default function Home() {
         </button>
         </Link>
       </div>
+     
     </div>
   );
 }
