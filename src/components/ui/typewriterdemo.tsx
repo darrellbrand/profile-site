@@ -23,6 +23,7 @@ export function TypewriterEffectDemo() {
             text: "developer",
             className: "text-white"
         },
+
         {
             text: "Darrell",
             className: "text-blue-500 dark:text-blue-500",
@@ -33,7 +34,7 @@ export function TypewriterEffectDemo() {
         },
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[10rem] ">
+        <div className="flex flex-col items-center justify-center h-[10rem] mt-20">
             <TypewriterEffect words={words} />
         </div>
     );

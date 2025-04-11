@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Vortex } from "@/components/ui/vortex";
-import Navigation from "@/components/navigation";
+import { NavbarDemo } from "@/components/ui/app-nav-bar";
 const inter = Inter();
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,18 +19,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`}
       >
-        <Vortex
-          backgroundColor="black"
-          rangeY={800}
-          particleCount={500}
-          baseHue={120}
-          className="h-screen overflow-hidden">
-          <Navigation>
-            {children}
-          </Navigation>
-
-        </Vortex>
-
+        {children}
       </body>
     </html>
   );
