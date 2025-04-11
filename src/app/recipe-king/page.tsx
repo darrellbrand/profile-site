@@ -4,22 +4,23 @@ import { Vortex } from "@/components/ui/vortex";
 
 export default function Home() {
     return (
-        <div className="w-full mx-auto  min-h-screen overflow-y-auto" >
+        <div className="relative w-full mx-auto  min-h-screen overflow-y-visible bg-blue-500" >
             <Vortex
                 backgroundColor="black"
                 rangeY={800}
                 particleCount={500}
                 baseHue={120}
-                className="flex items-center flex-col justify-center px-2 md:px-10  h-full w-full "
+                containerClassName="w-screen h-screen"
             >
+                <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
-                    <h1 className="  bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold text-transparent  ">
+                    <h1 className=" pt-30 py-8  bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold text-transparent  ">
                         Recipe King <br /> AI powered recipes.
                     </h1>
                     <CarouselDemo></CarouselDemo>
-                    <div className="flex flex-row  items-center gap-4 justify-center">
+                    <div className="flex flex-row  items-center gap-20 justify-center pt-8">
                         <div className="">
-                            <h1 className="text-2xl font-bold  text-white">Check out this video:</h1>
+                            <h1 className="text-2xl font-bold  text-white py-6">Check out this video:</h1>
                             <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto">
                                 <iframe
                                     className="w-full h-full rounded-lg"
@@ -32,7 +33,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="">
-                            <h1 className="text-2xl font-bold   text-white">Check out this video:</h1>
+                            <h1 className="text-2xl font-bold   text-white py-6">Check out this video:</h1>
                             <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto">
                                 <iframe
                                     className="w-full h-full rounded-lg"
@@ -45,24 +46,14 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <h1 className=" text-white text-3xl">Features</h1>
-                    <ol className="list-decimal text-white text-2xl ">
-                        <li >rad</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
 
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                        <li >rads</li>
-                  
-                
+                    <h1 className=" text-white text-3xl py-6">Features</h1>
+                    <ol className="list-decimal text-white text-2xl space-y-1">
+                        {Array.from({ length: 20 }).map((_, i) => (
+                            <li key={i}>rad feature {i + 1}</li>
+                        ))}
                     </ol>
+                </div>
             </Vortex>
         </div>);
 }
