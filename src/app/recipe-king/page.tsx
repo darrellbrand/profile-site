@@ -1,22 +1,22 @@
 import { NavbarDemo } from "@/components/ui/app-nav-bar";
 import { CarouselDemo } from "@/components/carousel-demo";
 import { Vortex } from "@/components/ui/vortex";
+import { TypewriterEffectDemo } from "@/components/ui/typewriterdemo";
+import { TypewriterEffectDemoRecipe } from "@/components/ui/typewriter-demo-recipe";
 
 export default function Home() {
     return (
-        <div className="relative w-full mx-auto  min-h-screen overflow-y-visible bg-blue-500" >
+        <div className="relative w-full mx-auto  min-h-screen overflow-y-visible" >
             <Vortex
                 backgroundColor="black"
                 rangeY={800}
                 particleCount={500}
-                baseHue={120}
-                containerClassName="w-screen h-screen"
+                baseHue={120}         
             >
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
-                    <h1 className=" pt-30 py-8  bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold text-transparent  ">
-                        Recipe King <br /> AI powered recipes.
-                    </h1>
+                   
+                    <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
                     <CarouselDemo></CarouselDemo>
                     <div className="flex flex-row  items-center gap-20 justify-center pt-8">
                         <div className="">
