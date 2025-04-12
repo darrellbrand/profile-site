@@ -7,6 +7,7 @@ export default function EmailForm() {
             <form
                 action="https://formspree.io/f/xeoanalj"
                 method="POST"
+                target="_blank"
                 className="flex flex-col gap-4 max-w-md mx-auto"
             >
                 <input
