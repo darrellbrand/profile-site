@@ -17,7 +17,7 @@ export default function Home() {
                     <NavbarDemo></NavbarDemo>
 
                     <div className="w-40 h-40 object-cover flex flex-col mx-auto mt-40 ">
-                        <img className="rounded-full" src="./images/FB_IMG_1705803440138_1725074455.webp"
+                        <img className="rounded-full" src="/profile-site/images/FB_IMG_1705803440138_1725074455.webp"
                             alt="">
                         </img>
                     </div>
