@@ -37,37 +37,37 @@ const grid = [
     {
         title: "App Home Page",
         description: "Material3 guidelines inspired bottom navigation bar and app home screen.",
-        imageUrl: "./images/Screenshot_20250411_134138.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134138.png",
     },
     {
         title: "Categories screen",
         description:
             "Filter the recipe database by category.",
-        imageUrl: "./images/Screenshot_20250411_134037.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134037.png",
     },
     {
         title: "Filter screen",
         description:
             "Filter a meal category further.",
-        imageUrl: "./images/Screenshot_20250411_134107.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134107.png",
     },
     {
         title: "Search screen",
         description:
             "Search all recipes.",
-        imageUrl: "./images/Screenshot_20250411_134127.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134127.png",
     },
     {
         title: "Generate recipe screen",
         description:
             "Choose from a list of the most popular ingredients and create an AI generated recipe.",
-        imageUrl: "./images/Screenshot_20250411_134214.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134214.png",
     },
     {
         title: "Instructions screen",
         description:
             "View recipe details on the instruction screen. Click 'generate' button to simplify the recipe with AI. ",
-        imageUrl: "./images/Screenshot_20250411_134158.png",
+        imageUrl: "/profile-site/images/Screenshot_20250411_134158.png",
     },
 
 ]
