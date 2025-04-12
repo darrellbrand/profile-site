@@ -5,7 +5,7 @@ export default function EmailForm() {
     return (
         <div className='pb-16'>
             <form
-                action="https://formspree.io/f/yourFormId"
+                action="https://formspree.io/f/xeoanalj"
                 method="POST"
                 className="flex flex-col gap-4 max-w-md mx-auto"
             >
