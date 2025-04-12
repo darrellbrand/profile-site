@@ -1,5 +1,5 @@
-import { useId , SVGProps} from "react"
-import Image from "next/image"
+import { useId, SVGProps } from "react"
+
 
 export default function FeaturesSectionDemo() {
     return (
@@ -12,7 +12,7 @@ export default function FeaturesSectionDemo() {
                     >
                         <Grid size={20} />
                         <div className=" flex justify-center  mb-4 pt-6 relative z-20 ">
-                            <Image
+                            < img
                                 src={feature.imageUrl || "/placeholder.svg"}
                                 alt={feature.title}
                                 width={200}
@@ -69,7 +69,7 @@ const grid = [
             "View recipe details on the instruction screen. Click 'generate' button to simplify the recipe with AI. ",
         imageUrl: "/images/Screenshot_20250411_134158.png",
     },
-   
+
 ]
 type Square = [number, number];
 
@@ -79,11 +79,11 @@ interface GridPatternProps extends SVGProps<SVGSVGElement> {
     x: string;
     y: string;
     squares: Square[];
-  }
-  interface GridProps {
+}
+interface GridProps {
     pattern?: Square[];
     size?: number;
-  }
+}
 export const Grid = ({
     pattern,
     size,
@@ -124,7 +124,7 @@ export function GridPattern({ width, height, x, y, squares, ...props }: GridPatt
             <rect width="100%" height="100%" strokeWidth={0} fill={`url(#${patternId})`} />
             {squares && (
                 <svg x={x} y={y} className="overflow-visible">
-                    {squares.map(([x, y]: [number,number]) => (
+                    {squares.map(([x, y]: [number, number]) => (
                         <rect
                             strokeWidth="0"
                             key={`${x}-${y}`}

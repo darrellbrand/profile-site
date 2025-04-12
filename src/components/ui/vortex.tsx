@@ -1,6 +1,6 @@
 'use client'
 import { cn } from "@/lib/utils";
-import React, { useCallback, useEffect, useRef } from "react";
+import React, { useCallback, useEffect, useMemo, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
 import { motion } from "motion/react";
 
@@ -41,7 +41,7 @@ export const Vortex = (props: VortexProps) => {
   let tick = 0;
   const noise3D = createNoise3D();
   let particleProps = new Float32Array(particlePropsLength);
-  const center: [number, number] = [0, 0];
+  const center = useMemo(() => [0, 0] as [number, number], []);
 
 
   const TAU: number = 2 * Math.PI;
@@ -54,7 +54,7 @@ export const Vortex = (props: VortexProps) => {
   const lerp = (n1: number, n2: number, speed: number): number =>
     (1 - speed) * n1 + speed * n2;
 
-  const setup = () => {
+  const setup = useCallback( () => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
     if (canvas && container) {
@@ -66,7 +66,7 @@ export const Vortex = (props: VortexProps) => {
         draw(canvas, ctx);
       }
     }
-  };
+  },[]);
 
   const initParticles = () => {
     tick = 0;
@@ -193,7 +193,7 @@ export const Vortex = (props: VortexProps) => {
 
     center[0] = 0.5 * canvas.width;
     center[1] = 0.5 * canvas.height;
-  },[]);
+  },[center]);
 
   const renderGlow = (
     canvas: HTMLCanvasElement,
