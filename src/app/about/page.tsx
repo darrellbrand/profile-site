@@ -3,6 +3,7 @@ import { FeaturesSectionDemoAbout } from "@/components/ui/feature-section-demo-a
 import { Vortex } from "@/components/ui/vortex";
 import EmailForm from "@/components/ui/email-form";
 import { TypewriterEffectDemoContact } from "@/components/ui/typewriter-demo-contact";
+ const basePath = '/profile-site'
 export default function Home() {
     return (
         <div className="h-screen  text-white flex flex-col items-center justify-center">
