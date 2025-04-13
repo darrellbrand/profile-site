@@ -20,7 +20,7 @@ export default function FeaturesSectionDemo() {
                                 className="rounded-lg"
                             />
                         </div>
-                        <div className="text-center">
+                        <div className="text-center  mx-28">
                             <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
                             <p className="text-white mt-2 mb-4  text-base font-normal relative z-20">
                                 {feature.description}
