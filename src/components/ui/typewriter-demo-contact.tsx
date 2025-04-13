@@ -4,11 +4,11 @@ import { TypewriterEffect } from "../ui/typewriter-effect";
 export function TypewriterEffectDemoContact() {
     const words = [
         {
-            text: "Contact",
+            text: "Email",
             className: "text-white"
         },
         {
-            text: "Me",
+            text: "Me.",
             className: "text-android"
         },
 
