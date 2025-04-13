@@ -11,7 +11,7 @@ import {
     Server,
     Lock,
     Code
-  } from "lucide-react";
+} from "lucide-react";
 import { SVGProps, useId, } from "react";
 
 export function FeaturesSectionDemoAbout() {
@@ -24,7 +24,7 @@ export function FeaturesSectionDemoAbout() {
                         className="relative bg-gradient-to-b from-neutral-900 to-neutral-900  p-6 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
-                       <feature.icon className="m-4"></feature.icon>
+                        <feature.icon className="m-4"></feature.icon>
                         <p className="text-base font-bold text-white relative z-20">
                             {feature.title}
                         </p>
@@ -43,63 +43,53 @@ const grid = [
     {
         icon: Smartphone,
         title: "Native Android Development",
-        description: "Developed robust Android apps using Kotlin, focusing on performance, maintainability, and modern coding practices aligned with the Android ecosystem.",
-      },
-      {
+        description: "Robust Android apps using Kotlin, focusing on performance, maintainability, and modern coding practices.",
+    },
+    {
         icon: Palette,
         title: "Jetpack Compose & Modern UI Design",
-        description: "Built sleek, declarative UIs with Jetpack Compose, embracing Material Design, animations, and responsive design tailored for modern Android experiences.",
-      },
-      {
+        description: "Sleek, declarative UIs with Jetpack Compose, embracing Material Design, animations, and responsive design tailored for modern Android experiences.",
+    },
+    {
         icon: Layers3,
         title: "Scalable Modern Android Architecture",
-        description: "Implemented clean, modular architectures using MVVM, Repository patterns, and Dagger Hilt, ensuring testability and long-term scalability.",
-      },
-      {
+        description: "Clean, modular architectures using MVVM, Repository patterns, and Dagger Hilt, ensuring testability and long-term scalability.",
+    },
+    {
         icon: FlaskConical,
-        title:"Appium & End-to-End Mobile Testing",
+        title: "Appium & End-to-End Mobile Testing",
         description: "Automated mobile testing pipelines using Appium, enabling efficient regression testing and CI integrations for consistent quality assurance.",
-      },
-      {
-        icon: TestTubes,
-        title: "Unit & Instrumentation Testing",
-        description: "Wrote comprehensive unit and instrumentation tests to ensure app reliability, edge case handling, and smooth UX across devices and versions.",
-      },
-      {
+    },
+    {
         icon: Globe,
         title: "Next.js + TypeScript Web Development",
-        description: "Build fast, SEO-optimized web applications using Next.js and TypeScript, with a strong focus on reusable components and delivering polished, customer-facing interfaces that meet client requirements.",
-      },
-      {
+        description: "Fast, SEO-optimized web applications using Next.js and TypeScript, with a strong focus on reusable components and delivering polished, customer-facing interfaces that meet client requirements.",
+    },
+    {
         icon: TerminalSquare,
         title: "Scripting & Automation",
         description: "Automated dev tasks and builds using Python, Lua, Bash, and NSIS, streamlining complex workflows and supporting cross-platform development.",
-      },
-      {
-        icon: PackageCheck,
-        title: "Windows Deployment",
-        description: "Built custom Windows installers with NSIS and used batch scripting for app packaging and deployment tooling on legacy systems.",
-      }, {
+    }, {
         icon: Server,
         title: "Java Spring Boot Backend",
-        description: "Built scalable backend services with Spring Boot, handling secure API requests.",
-      },
-      {
+        description: "Scalable backend services with Spring Boot, handling secure API requests.",
+    },
+    {
         icon: Lock,
         title: "Spring Security & JWT Authentication",
         description: "Secured applications using JWT tokens for authentication and role-based access.",
-      },
-      {
+    },
+    {
         icon: Code,
         title: "Full-Stack Development",
-        description: "Developed end-to-end solutions combining Java-based backends and React/Next.js frontends.",
-      },
-    
+        description: "End-to-end solutions combining Java-based backends and React/Next.js frontends.",
+    },
+
 ];
 interface GridProps {
     pattern?: Square[];
     size?: number;
-  }
+}
 export const Grid = ({
     pattern,
     size,
@@ -134,7 +124,7 @@ interface GridPatternProps extends SVGProps<SVGSVGElement> {
     x: string;
     y: string;
     squares: Square[];
-  }
+}
 export function GridPattern({ width, height, x, y, squares, ...props }: GridPatternProps) {
     const patternId = useId();
 
