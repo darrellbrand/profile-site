@@ -11,6 +11,12 @@ export default function FeaturesSectionDemo() {
                         className="relative bg-gray-500/40 text-neutral-400 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
+                        <div className="text-center mt-8">
+                            <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
+                            <p className="text-white mt-4 mb-4  text-base font-normal relative z-20">
+                                {feature.description}
+                            </p>
+                        </div>
                         <div className=" flex justify-center  mb-4 pt-6 relative z-20 text-white">
                             < img
                                 src={feature.imageUrl || "/placeholder.svg"}
@@ -20,12 +26,7 @@ export default function FeaturesSectionDemo() {
                                 className="rounded-lg"
                             />
                         </div>
-                        <div className="text-center">
-                            <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
-                            <p className="text-white mt-4 mb-4  text-base font-normal relative z-20">
-                                {feature.description}
-                            </p>
-                        </div>
+                       
                     </div>
                 ))}
             </div>
