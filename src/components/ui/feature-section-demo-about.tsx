@@ -19,7 +19,7 @@ export function FeaturesSectionDemoAbout() {
                 {grid.map((feature) => (
                     <div
                         key={feature.title}
-                        className="relative bg-gradient-to-b from-neutral-900 to-neutral-900  p-6 rounded-3xl overflow-hidden"
+                        className="relative bg-gradient-to-b transparent to-neutral-950  p-6 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
                         <feature.icon className="m-4"></feature.icon>

@@ -8,7 +8,7 @@ export default function FeaturesSectionDemo() {
                 {grid.map((feature) => (
                     <div
                         key={feature.title}
-                        className="relative bg-gray-500/40 text-neutral-400 rounded-3xl overflow-hidden"
+                        className="relative bg-gradient-to-b transparent to-neutral-950 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
                         <div className=" flex justify-center  mb-4 mt-4  pt-6 relative z-20 text-white">
@@ -96,17 +96,17 @@ export const Grid = ({
         [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
     ]
     return (
-
-        <div className="absolute inset-0   bg-zinc-900/20  opacity-100">
-            <GridPattern
-                width={size ?? 20}
-                height={size ?? 20}
-                x="-12"
-                y="4"
-                squares={p}
-                className="absolute inset-0 h-full w-full  mix-blend-overlay fill-white/20 stroke-white/20"
-            />
-
+        <div className="pointer-events-none absolute  h-full w-full [mask-image:linear-gradient(white,transparent)]">
+            <div className="absolute inset-0 bg-gradient-to-r  [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]   ">
+                <GridPattern
+                    width={size ?? 20}
+                    height={size ?? 20}
+                    x="-12"
+                    y="4"
+                    squares={p}
+                    className="absolute inset-0 h-full w-full  mix-blend-overlay fill-white/20 stroke-white/20"
+                />
+            </div>
         </div>
     )
 }
