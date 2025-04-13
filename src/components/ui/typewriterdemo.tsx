@@ -55,7 +55,7 @@ export function TypewriterEffectDemo() {
       
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[10rem] mt-40 md:mt-60 mb-10 md:mb-30  max-w-5xl  pt-50 px-5 ">
+        <div className="flex flex-col items-center justify-center h-[10rem] mt-20 md:mt-50 mb-10 md:mb-30  max-w-5xl  pt-50 px-5 ">
             <TypewriterEffect words={words} />
         </div>
     );
