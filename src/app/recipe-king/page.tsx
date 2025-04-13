@@ -34,9 +34,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className=" text-center relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-4 mt-6  pb-16 px-8 max-w-5xl w-full mx-auto">
-                        <div className="flex row items-center">
-                            <img src="/profile-site/images/icon-1971128_1280.png" className="size-80"></img>
-                            <h2 className="text-6xl font-semibold">Modern android app architecture with jetpack compose</h2>
+                        <div className="flex flex-col md:flex-row items-center gap-6 px-4">
+                            <img src="/profile-site/images/icon-1971128_1280.png" className="w-40 h-40 md:w-80 md:h-80"></img>
+                            <h2 className="text-2xl md:text-4xl lg:text-6xl font-semibold text-center md:text-left">Modern android app architecture with jetpack compose</h2>
                         </div>
 
                         <FeaturesSectionDemo></FeaturesSectionDemo>
