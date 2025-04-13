@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 
@@ -10,7 +11,7 @@ export default function EmailForm() {
                 target="_blank"
                 className="flex flex-col gap-4 max-w-md mx-auto  "
             >
-                <input 
+                <input
                     type="text"
                     name="name"
                     placeholder="Your name"

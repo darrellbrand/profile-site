@@ -39,6 +39,7 @@ function Navbar({ className }: { className?: string }) {
                     <div className="flex flex-col space-y-4 text-sm">
                         <HoveredLink href="/about#profile">Profile</HoveredLink>
                         <HoveredLink href="/about#contact">Contact</HoveredLink>
+                        <HoveredLink href="https://github.com/darrellbrand">Github</HoveredLink>
                     </div>
                 </MenuItem>
             </Menu>

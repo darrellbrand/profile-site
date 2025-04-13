@@ -3,6 +3,7 @@ import { FeaturesSectionDemoAbout } from "@/components/ui/feature-section-demo-a
 import { Vortex } from "@/components/ui/vortex";
 import EmailForm from "@/components/ui/email-form";
 import { TypewriterEffectDemoContact } from "@/components/ui/typewriter-demo-contact";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -17,15 +18,15 @@ export default function Home() {
                     <NavbarDemo></NavbarDemo>
 
                     <div className=" h-50 w-50  object-cover flex flex-col mx-auto mt-40 mb-20  ">
-                        <img  src="/profile-site/images/1744560812159.jpg"
+                        <img src="/profile-site/images/1744560812159.jpg"
                             alt=""
                             className="rounded-full">
-                                
+
                         </img>
                     </div>
                     <FeaturesSectionDemoAbout></FeaturesSectionDemoAbout>
                 </section>
-                <section id="contact">
+                <section id="contact" className="text-center">
                     <TypewriterEffectDemoContact></TypewriterEffectDemoContact>
                     <EmailForm></EmailForm>
                 </section>

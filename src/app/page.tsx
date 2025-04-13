@@ -24,9 +24,6 @@ export default function Home() {
               Learn More
             </button>
           </Link>
-          <Link className="text-blue-600 hover:underline mt-4" href="https://github.com/darrellbrand">
-            Check out my Github
-          </Link>
         </div>
       </Vortex>
     </div>
