@@ -15,10 +15,10 @@ export default function Home() {
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
-                    <div className="  relative  text-white rounded-3xl mt-8   shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
+                    <div className="  relative  text-white rounded-3xl mt-16   shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
-                            <h2 className="text-xl font-semibold text-center">Demo Video</h2>
+                            <h2 className="text-xl font-semibold text-center">Check Out The Demo Video</h2>
 
                         </div>
                         <div className="relative z-10  h-96">
