@@ -4,10 +4,8 @@ import {
     Palette,
     Layers3,
     FlaskConical,
-    TestTubes,
     Globe,
     TerminalSquare,
-    PackageCheck,
     Server,
     Lock,
     Code
