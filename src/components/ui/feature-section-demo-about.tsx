@@ -24,7 +24,7 @@ export function FeaturesSectionDemoAbout() {
                         className="relative bg-gradient-to-b from-neutral-900 to-neutral-900  p-6 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
-                       <feature.icon></feature.icon>
+                       <feature.icon className="m-4"></feature.icon>
                         <p className="text-base font-bold text-white relative z-20">
                             {feature.title}
                         </p>
