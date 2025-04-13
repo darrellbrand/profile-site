@@ -16,9 +16,11 @@ export default function Home() {
                 <section id="profile">
                     <NavbarDemo></NavbarDemo>
 
-                    <div className="w-40 h-40 object-cover flex flex-col mx-auto mt-40 mb-20  ">
-                        <img className="rounded-full" src="/profile-site/images/1744560812159.jpg"
-                            alt="">
+                    <div className=" h-50 w-50  object-cover flex flex-col mx-auto mt-40 mb-20  ">
+                        <img  src="profile-site/images/1744560812159.jpg"
+                            alt=""
+                            className="rounded-full">
+                                
                         </img>
                     </div>
                     <FeaturesSectionDemoAbout></FeaturesSectionDemoAbout>
