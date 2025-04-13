@@ -16,7 +16,7 @@ import { SVGProps, useId, } from "react";
 
 export function FeaturesSectionDemoAbout() {
     return (
-        <div className="pt-10">
+        <div className="pt-10 m-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4 max-w-7xl mx-auto">
                 {grid.map((feature) => (
                     <div

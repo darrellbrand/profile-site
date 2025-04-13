@@ -20,12 +20,16 @@ export function TypewriterEffectDemoRecipe() {
             className: "text-white"
         },
         {
-            text: "Recipes",
+            text: "Android",
+            className: "text-white"
+        },
+        {
+            text: "App.",
             className: "text-white"
         },
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[10rem] mt-40 mb-20">
+        <div className="flex flex-col items-center justify-center h-[10rem] mt-60 mb-10">
             <TypewriterEffect words={words} />
         </div>
     );

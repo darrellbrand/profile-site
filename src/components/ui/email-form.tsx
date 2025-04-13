@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function EmailForm() {
     return (
-        <div className='pb-16'>
+        <div className='pb-16 m-6'>
             <form
                 action="https://formspree.io/f/xeoanalj"
                 method="POST"

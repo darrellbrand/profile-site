@@ -3,26 +3,25 @@ import { TypewriterEffect } from "../ui/typewriter-effect";
 
 export function TypewriterEffectDemo() {
     const words = [
-        
         {
-            text: "I'm",
+            text: "Hi!",
             className: "text-white",
         },
         {
-            text: "Darrell",
-            className: "text-white",
-        },
-        {
-            text: "and",
+            text: "  ",
             className: "text-white",
         },
         {
             text: "I'm",
+            className: "text-white",
+        },
+        {
+            text: "Darrell,",
             className: "text-white",
         },
         {
             text: "a",
-            className: "text-white",
+            className: "text-white"
         },
         {
             text: "native",
