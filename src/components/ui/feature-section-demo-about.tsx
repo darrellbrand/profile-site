@@ -5,11 +5,11 @@ import { SVGProps, useId, } from "react";
 export function FeaturesSectionDemoAbout() {
     return (
         <div className="pt-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-6 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4 max-w-7xl mx-auto">
                 {grid.map((feature) => (
                     <div
                         key={feature.title}
-                        className="relative bg-gradient-to-b from-neutral-900 to-neutral-950  p-6 rounded-3xl overflow-hidden"
+                        className="relative bg-gradient-to-b from-neutral-900 to-neutral-900  p-6 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
                         <p className="text-base font-bold text-white relative z-20">

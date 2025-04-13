@@ -6,7 +6,7 @@ import { TypewriterEffectDemo } from "@/components/ui/typewriterdemo";
 import { NavbarDemo } from "@/components/ui/app-nav-bar";
 export default function Home() {
   return (
-    <div className="flex items-center flex-col   w-full h-min-screen">
+    <div className="flex items-center flex-col   w-full h-min-screen ">
         <Vortex
                 backgroundColor="black"
                 rangeY={800}
@@ -17,7 +17,7 @@ export default function Home() {
       <div className="h-28">
       </div>
       <TypewriterEffectDemo></TypewriterEffectDemo>
-      <p className="text-white text-sm md:text-2xl max-w-xl mt-8 text-center mx-auto ">
+      <p className="text-white text-sm md:text-2xl max-w-xl mt-16 text-center mx-auto ">
         I created this portfolio site with Next.js to showcase my full stack native android applications for clients and employers.
       </p>
       <div className="flex flex-col  items-center gap-4 mt-6">

@@ -25,7 +25,7 @@ export function TypewriterEffectDemoRecipe() {
         },
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[10rem] mt-20">
+        <div className="flex flex-col items-center justify-center h-[10rem] mt-40 mb-20">
             <TypewriterEffect words={words} />
         </div>
     );

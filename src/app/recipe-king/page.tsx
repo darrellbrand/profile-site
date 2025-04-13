@@ -15,14 +15,13 @@ export default function Home() {
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
-                    <div className="  relative bg-gradient-to-b from-zinc-900/20 to-zinc-400/20 text-neutral-200 rounded-3xl overflow-hidden backdrop-blur-md shadow-xl pt-8 pb-16 px-8 max-w-5xl">
+                    <div className="  relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
 
-                        <div className="absolute inset-0 pointer-events-none [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] bg-white/5"></div>
-                        <div className="relative z-10 p-6">
-                            <h2 className="text-xl font-semibold">Recipe King Demo Video</h2>
-                            <p className="text-sm mt-2">Check out my AI powered android recipe app ✨</p>
+                        <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
+                            <h2 className="text-3xl font-semibold">Recipe King Demo Video</h2>
+                            
                         </div>
-                        <div className="relative z-10 w-full h-[500px]">
+                        <div className="relative z-10  h-96">
                             <iframe
                                 className="w-full h-full rounded-lg "
                                 frameBorder="0"
@@ -34,7 +33,13 @@ export default function Home() {
                             ></iframe>
                         </div>
                     </div>
-                    <FeaturesSectionDemo></FeaturesSectionDemo>
+                    <div className="  relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-4 mt-6  pb-16 px-8 max-w-5xl w-full mx-auto">
+                        <div className="relative z-10 pb-10 flex flex-col items-center justify-center mt-6 ">
+                            <h2 className="text-3xl font-semibold">Modern android app architecture with jetpack compose</h2>
+                        </div>
+                        <FeaturesSectionDemo></FeaturesSectionDemo>
+                    </div>
+
                 </div>
             </Vortex>
         </div>);

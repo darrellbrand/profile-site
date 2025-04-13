@@ -8,7 +8,7 @@ export default function EmailForm() {
                 action="https://formspree.io/f/xeoanalj"
                 method="POST"
                 target="_blank"
-                className="flex flex-col gap-4 max-w-md mx-auto"
+                className="flex flex-col gap-4 max-w-md mx-auto bg-white/15"
             >
                 <input
                     type="text"
@@ -34,7 +34,7 @@ export default function EmailForm() {
                     type="submit"
                     className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded"
                 >
-                    Send Message
+                    Send Email
                 </button>
             </form>
         </div>
