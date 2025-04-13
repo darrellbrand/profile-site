@@ -15,7 +15,7 @@ export default function Home() {
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
-                    <div className="  relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
+                    <div className="  relative  bg-zinc-800/60 text-neutral-200 rounded-3xl   shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
                             <h2 className="text-3xl font-semibold">Recipe King Demo Video</h2>
