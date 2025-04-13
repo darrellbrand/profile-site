@@ -11,13 +11,7 @@ export default function FeaturesSectionDemo() {
                         className="relative bg-gray-500/40 text-neutral-400 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
-                        <div className="text-center mt-8">
-                            <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
-                            <p className="text-white mt-4 mb-4  text-base font-normal relative z-20">
-                                {feature.description}
-                            </p>
-                        </div>
-                        <div className=" flex justify-center  mb-4 pt-6 relative z-20 text-white">
+                        <div className=" flex justify-center  mb-4 mt-4  pt-6 relative z-20 text-white">
                             < img
                                 src={feature.imageUrl || "/placeholder.svg"}
                                 alt={feature.title}
@@ -26,7 +20,12 @@ export default function FeaturesSectionDemo() {
                                 className="rounded-lg"
                             />
                         </div>
-                       
+                        <div className="text-center">
+                            <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
+                            <p className="text-white mt-2 mb-4  text-base font-normal relative z-20">
+                                {feature.description}
+                            </p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -97,17 +96,17 @@ export const Grid = ({
         [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
     ]
     return (
-       
-            <div className="absolute inset-0   bg-zinc-900/20  opacity-100">
-                <GridPattern
-                    width={size ?? 20}
-                    height={size ?? 20}
-                    x="-12"
-                    y="4"
-                    squares={p}
-                    className="absolute inset-0 h-full w-full  mix-blend-overlay fill-white/20 stroke-white/20"
-                />
-          
+
+        <div className="absolute inset-0   bg-zinc-900/20  opacity-100">
+            <GridPattern
+                width={size ?? 20}
+                height={size ?? 20}
+                x="-12"
+                y="4"
+                squares={p}
+                className="absolute inset-0 h-full w-full  mix-blend-overlay fill-white/20 stroke-white/20"
+            />
+
         </div>
     )
 }
