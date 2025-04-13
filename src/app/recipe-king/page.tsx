@@ -19,7 +19,7 @@ export default function Home() {
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
                             <h2 className="text-3xl font-semibold">Recipe King Demo Video</h2>
-                            
+
                         </div>
                         <div className="relative z-10  h-96">
                             <iframe
@@ -33,10 +33,12 @@ export default function Home() {
                             ></iframe>
                         </div>
                     </div>
-                    <div className="  relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-4 mt-6  pb-16 px-8 max-w-5xl w-full mx-auto">
-                        <div className="relative z-10 pb-10 flex flex-col items-center justify-center mt-6 ">
+                    <div className=" text-center relative  bg-zinc-800/60 text-neutral-200 rounded-3xl overflow-hidden  shadow-xl pt-4 mt-6  pb-16 px-8 max-w-5xl w-full mx-auto">
+                        <div className="flex row items-center">
+                            <img src="/images/icon-1971128_1280.png" className="size-80"></img>
                             <h2 className="text-3xl font-semibold">Modern android app architecture with jetpack compose</h2>
                         </div>
+
                         <FeaturesSectionDemo></FeaturesSectionDemo>
                     </div>
 
