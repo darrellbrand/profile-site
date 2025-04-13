@@ -3,12 +3,12 @@ import { useId, SVGProps } from "react"
 
 export default function FeaturesSectionDemo() {
     return (
-        <div className="pt-6 ">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 md:gap-6 max-w-7xl mx-auto">
+        <div className="pt-6 m-6 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 md:gap-6 max-w-7xl mx-auto">
                 {grid.map((feature) => (
                     <div
                         key={feature.title}
-                        className="relative bg-gradient-to-b transparent to-neutral-950 rounded-3xl overflow-hidden"
+                        className="relative bg-gradient-to-b transparent to-neutral-950 rounded-3xl overflow-hidden p-6"
                     >
                         <Grid size={20} />
                         <div className=" flex justify-center  mb-4 mt-4  pt-6 relative z-20 text-white">
@@ -20,7 +20,7 @@ export default function FeaturesSectionDemo() {
                                 className="rounded-lg"
                             />
                         </div>
-                        <div className="text-center  mx-28">
+                        <div className="text-center  ">
                             <p className=" font-bold  relative z-20 text-white">{feature.title}</p>
                             <p className="text-white mt-2 mb-4  text-base font-normal relative z-20">
                                 {feature.description}

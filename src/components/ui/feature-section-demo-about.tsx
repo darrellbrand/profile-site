@@ -22,6 +22,7 @@ export function FeaturesSectionDemoAbout() {
                         className="relative bg-gradient-to-b transparent to-neutral-950  p-6 rounded-3xl overflow-hidden"
                     >
                         <Grid size={20} />
+                        <div className="text-center ">
                         <feature.icon className="m-4"></feature.icon>
                         <p className="text-base font-bold text-white relative z-20">
                             {feature.title}
@@ -29,6 +30,7 @@ export function FeaturesSectionDemoAbout() {
                         <p className=" text-white mt-4 text-base font-normal relative z-20">
                             {feature.description}
                         </p>
+                        </div>
                     </div>
                 ))}
             </div>
