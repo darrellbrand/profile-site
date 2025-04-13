@@ -28,7 +28,7 @@ export function FeaturesSectionDemoAbout() {
                         <p className="text-base font-bold text-white relative z-20">
                             {feature.title}
                         </p>
-                        <p className=" text-neutral-400 mt-4 text-base font-normal relative z-20">
+                        <p className=" text-white mt-4 text-base font-normal relative z-20">
                             {feature.description}
                         </p>
                     </div>
