@@ -33,13 +33,7 @@ export default function Home() {
                             ></iframe>
                         </div>
                     </div>
-                    <div className=" text-center relative   text-white rounded-3xl overflow-hidden  shadow-xl pt-4 mt-6  pb-16 px-8 max-w-5xl w-full mx-auto">
-                        <div className="flex flex-col md:flex-row items-center gap-6 px-4">
-                            <img src="/profile-site/images/icon-1971128_1280.png" className="w-40 h-40 md:w-80 md:h-80"></img>
-                            <h2 className="text-xl md:text-4xl lg:text-6xl font-semibold text-center">Modern android app architecture with jetpack compose</h2>
-                        </div>
-                        </div>
-                        <FeaturesSectionDemo></FeaturesSectionDemo>
+                    <FeaturesSectionDemo></FeaturesSectionDemo>
                 </div>
             </Vortex>
         </div>);
