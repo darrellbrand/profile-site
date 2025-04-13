@@ -1,10 +1,11 @@
 
+import Link from 'next/link'
 import React from 'react'
 
 
 export default function EmailForm() {
     return (
-        <div className='pb-16 m-6'>
+        <div className='pb-16 m-6 flex flex-col'>
             <form
                 action="https://formspree.io/f/xeoanalj"
                 method="POST"
@@ -38,6 +39,10 @@ export default function EmailForm() {
                     Send Email
                 </button>
             </form>
+            <Link href="https://github.com/darrellbrand"
+                className="text-blue-600 hover:underline pt-4 m-4" >
+                Check Out My Github
+            </Link>
         </div>
     )
 }
