@@ -51,7 +51,7 @@ const grid = [
     {
         icon: Layers3,
         title: "Scalable Modern Android Architecture",
-        description: "Clean, modular architectures using MVVM, Repository patterns, and Dagger Hilt, ensuring testability and long-term scalability.",
+        description: "Clean, modular architectures using MVVM, and Dagger Hilt, ensuring testability and long-term scalability.",
     },
     {
         icon: FlaskConical,
