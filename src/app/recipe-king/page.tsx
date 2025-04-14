@@ -1,7 +1,7 @@
 import { NavbarDemo } from "@/components/ui/app-nav-bar";
 import { Vortex } from "@/components/ui/vortex";
 import { TypewriterEffectDemoRecipe } from "@/components/ui/typewriter-demo-recipe";
-import FeaturesSectionDemo from "@/components/ui/feature-section-demo";
+import { CarouselDemo } from "@/components/ui/picture-carousel";
 
 export default function Home() {
     return (
@@ -15,6 +15,8 @@ export default function Home() {
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
+
+                    <CarouselDemo></CarouselDemo>
                     <div className="  relative  text-white rounded-3xl mt-16   shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
@@ -33,7 +35,6 @@ export default function Home() {
                             ></iframe>
                         </div>
                     </div>
-                    <FeaturesSectionDemo></FeaturesSectionDemo>
                 </div>
             </Vortex>
         </div>);
