@@ -11,7 +11,7 @@ import {
 const slideData = [
     {
         title: "App Home Page",
-        src: "/profile-site/images/Screenshot_20250411_134138.png",
+        src: "/images/Screenshot_20250411_134138.png",
     },
     {
         title: "Categories screen",
@@ -42,8 +42,9 @@ export function CarouselDemo() {
           <CarouselItem key={index}>
             <div className="p-1">
               <Card className="bg-transparent">
-                <CardContent className="flex aspect-square items-center justify-center p-6 ">
+                <CardContent className="flex flex-col aspect-square items-center justify-center p-6 ">
                   <img src={slide.src}></img>
+                  <h1 className="mt-8 text-white text-3xl">{slide.title}</h1>
                 </CardContent>
               </Card>
             </div>

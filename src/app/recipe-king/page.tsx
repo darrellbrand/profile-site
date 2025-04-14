@@ -17,7 +17,7 @@ export default function Home() {
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
                     <CarouselDemo></CarouselDemo>
-                    <div className="   border border-white relative  text-white rounded-3xl    shadow-xl  py-16 px-8 max-w-5xl w-full mx-auto">
+                    <div className="   border border-white relative  text-white rounded-3xl   shadow-xl  py-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
                             <h2 className="text-xl font-semibold text-center">Check Out The Demo Video</h2>
