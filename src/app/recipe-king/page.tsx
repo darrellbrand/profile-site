@@ -17,7 +17,7 @@ export default function Home() {
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
 
                     <CarouselDemo></CarouselDemo>
-                    <div className="  relative  text-white rounded-3xl mt-16   shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
+                    <div className="  relative  text-white rounded-3xl mt-16  bg-white/10 shadow-xl pt-8 pb-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
                             <h2 className="text-xl font-semibold text-center">Check Out The Demo Video</h2>
