@@ -1,7 +1,8 @@
 import { NavbarDemo } from "@/components/ui/app-nav-bar";
 import { Vortex } from "@/components/ui/vortex";
 import { TypewriterEffectDemoRecipe } from "@/components/ui/typewriter-demo-recipe";
-import { CarouselDemo } from "@/components/ui/picture-carousel";
+import { CarouselDemo } from "@/components/carousel-demo";
+
 
 export default function Home() {
     return (
@@ -15,9 +16,8 @@ export default function Home() {
                 <div className=" flex flex-col items-center justify-center">
                     <NavbarDemo></NavbarDemo>
                     <TypewriterEffectDemoRecipe></TypewriterEffectDemoRecipe>
-
                     <CarouselDemo></CarouselDemo>
-                    <div className="  relative  text-white rounded-3xl   bg-white/10 shadow-xl  py-16 px-8 max-w-5xl w-full mx-auto">
+                    <div className="   border border-white relative  text-white rounded-3xl    shadow-xl  py-16 px-8 max-w-5xl w-full mx-auto">
 
                         <div className="relative z-10 pb-10 flex flex-col items-center justify-center ">
                             <h2 className="text-xl font-semibold text-center">Check Out The Demo Video</h2>
