@@ -14,23 +14,23 @@ const slideData = [
         src: "/profile-site/images/Screenshot_20250411_134138.png",
     },
     {
-        title: "Categories screen",
+        title: "Categories Screen",
         src: "/profile-site/images/Screenshot_20250411_134037.png",
     },
     {
-        title: "Filter screen",
+        title: "Filter Screen",
         src: "/profile-site/images/Screenshot_20250411_134107.png",
     },
     {
-        title: "Search screen",
+        title: "Search Screen",
         src: "/profile-site/images/Screenshot_20250411_134127.png",
     },
     {
-        title: "Generate recipe screen",
+        title: "Generate Recipe Screen",
         src: "/profile-site/images/Screenshot_20250411_134214.png"
     },
     {
-        title: "Instructions screen",
+        title: "Instructions Screen",
         src: "/profile-site/images/Screenshot_20250411_134158.png",
     },
 ];
