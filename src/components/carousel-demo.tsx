@@ -11,7 +11,7 @@ import {
 const slideData = [
     {
         title: "App Home Page",
-        src: "/images/Screenshot_20250411_134138.png",
+        src: "/profile-site/images/Screenshot_20250411_134138.png",
     },
     {
         title: "Categories screen",
