@@ -44,7 +44,7 @@ export function CarouselDemo() {
               <Card className="bg-transparent">
                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 ">
                   <img src={slide.src}></img>
-                  <h1 className="mt-8 text-white text-3xl">{slide.title}</h1>
+                  <h1 className="mt-8 text-white text-3xl text-center">{slide.title}</h1>
                 </CardContent>
               </Card>
             </div>
