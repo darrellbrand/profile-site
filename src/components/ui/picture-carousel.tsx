@@ -17,7 +17,6 @@ export function CarouselDemo() {
         },
         {
             title: "Search screen",
-
             src: "/profile-site/images/Screenshot_20250411_134127.png",
         },
         {
@@ -30,7 +29,7 @@ export function CarouselDemo() {
         },
     ];
     return (
-        <div className="relative overflow-hidden w-full h-full py-20 mt-20">
+        <div className="relative  w-full h-full mt-32 ">
             <Carousel slides={slideData} />
         </div>
     );
