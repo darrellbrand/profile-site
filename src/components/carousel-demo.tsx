@@ -36,7 +36,7 @@ const slideData = [
 ];
 export function CarouselDemo() {
   return (
-    <Carousel className="w-full max-w-xs my-30 ">
+    <Carousel className="w-full max-w-xs my-10 ">
       <CarouselContent>
       {slideData.map((slide, index) => (
           <CarouselItem key={index}>
